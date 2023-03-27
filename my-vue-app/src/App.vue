@@ -1,3 +1,4 @@
+
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import LinkWeather from './components/linkWeather.vue';
@@ -12,23 +13,10 @@ import LinkWeather from './components/linkWeather.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>-->
-  /*<HelloWorld msg="Vite + Vue" />*/
-  <LinkWeather/>
-  <LinkWeather name="Petr"/>
-  <LinkWeather name="Klara"/>
+  <LinkWeather name="Praha" temparature="21"/>
+  <LinkWeather name="Brno" temparature="21"/>
+  <LinkWeather name="Ostrava" temparature="21"/>
+  <LinkWeather name="Olomouc" temparature="21"/>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<style>  
 </style>
