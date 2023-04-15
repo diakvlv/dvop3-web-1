@@ -42,7 +42,10 @@ import RightHead from './components/rightHead.vue';
   </div>
 </template>
 <style>
-.MiddleContainer{
+.RightHead{
+  height: 100px;
+}
+.middleContainer{
   width: 49%;
 }
 .wrapper {
