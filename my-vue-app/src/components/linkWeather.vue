@@ -3,18 +3,30 @@ import { isIntegerKey } from '@vue/shared';
 
 defineProps({
   name: String,
-  temparature: Number
+  temparature: Number,
+  image1: String,
+  image2: String
 })
+
+
 </script>
 <template>
     <div class="flexbox">
       <p class="name">{{ name }}</p>
       <p class="temparature">{{ temparature }}</p>
+       <div class="img">
+      <img
+      :src="temparature > 15 ? image2 : image1"
+      :class="{'image-warm': temparature > 15, 'image-cold': temparature <= 15 }"/>
+    </div>
+                
     </div>
 </template>
 
 <style>
-
+template{
+  height: 20%;
+}
 .flexbox {
   background-color: lightgray;
   display: flex;
@@ -22,9 +34,15 @@ defineProps({
   gap: 10px;
   
 }
-
-.name,
-.temparature {
+img {
+  text-align: center;
+  width: 30%;
+  height: 90%;
+}
+.name, 
+.temparature,
+.img
+{
   flex-basis: 50%;
   text-align: center;
   flex-grow: 1;
