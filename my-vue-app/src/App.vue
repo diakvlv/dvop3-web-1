@@ -1,9 +1,9 @@
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import LinkWeather from './components/linkWeather.vue'
+import LinkWeather from './components/linkWeather.vue';
 import RightHead from './components/rightHead.vue';
 import PreviewTemp from './components/previewTemp.vue';
+import MiddleInf from './components/middleInf.vue';
 </script>
 
 <template>
@@ -19,15 +19,22 @@ import PreviewTemp from './components/previewTemp.vue';
     <div class="leftContainer">
     </div>
     <div class="middleContainer">
-      <LinkWeather name="Praha" temparature="21" />
-
+      <div class="middle">
+         <MiddleInf img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTgw_L8XqGGFtpKgJrO-n6OMvdoebpXcxhqw&usqp=CAU"/>
+         <MiddleInf img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTgw_L8XqGGFtpKgJrO-n6OMvdoebpXcxhqw&usqp=CAU"/>
+      </div>
     </div>
     <div class="rightContainer">
       <RightHead head1="<" head2="Head" head3=">" />
       <div class="prev">
-        <PreviewTemp day="Tddm" temp="Tddm" city="Tddm" />
-        <PreviewTemp day="Tddm" temp="Tddm" city="Tddm" />
-        <PreviewTemp day="Tddm" temp="Tddm" city="Tddm" />
+        <PreviewTemp  temparature="17" city="Prag"  image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
+        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        <PreviewTemp temparature="14"  city="Prag" image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
+        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        <PreviewTemp  temparature="13"  city="Prag" image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
+        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        <PreviewTemp  temparature="13"  city="Prag" image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
+        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
       </div>
 
       <LinkWeather name="Praha" temparature="21"
@@ -57,10 +64,18 @@ import PreviewTemp from './components/previewTemp.vue';
       <LinkWeather name="Chomutov" temparature="21"
         image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
         image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        
     </div>
   </div>
 </template>
 <style>
+.middle{ 
+  display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+  }
 .prev {
   display: flex;
     gap: 20px;
@@ -78,6 +93,8 @@ import PreviewTemp from './components/previewTemp.vue';
 
 .middleContainer {
   width: 49%;
+  background-color: lightgray;
+  
 }
 
 .wrapper {

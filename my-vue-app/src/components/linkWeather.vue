@@ -4,6 +4,7 @@ import { isIntegerKey } from '@vue/shared';
 defineProps({
   name: String,
   temparature: Number,
+  city: String,
   image1: String,
   image2: String
 })
@@ -12,6 +13,7 @@ defineProps({
 </script>
 <template>
     <div class="flexbox">
+     
       <p class="name">{{ name }}</p>
       <p class="temparature">{{ temparature }}</p>
        <div class="img">
