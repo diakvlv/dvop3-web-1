@@ -24,7 +24,7 @@ defineProps({
     </div>
 </template>
 
-<style>
+<style scoped>
 
 img {
   width: 50px;

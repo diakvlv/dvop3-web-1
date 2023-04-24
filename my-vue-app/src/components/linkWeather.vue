@@ -25,7 +25,7 @@ defineProps({
     </div>
 </template>
 
-<style>
+<style scoped>
 template{
   height: 20%;
 }

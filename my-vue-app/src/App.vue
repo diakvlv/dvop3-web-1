@@ -20,8 +20,9 @@ import MiddleInf from './components/middleInf.vue';
     </div>
     <div class="middleContainer">
       <div class="middle">
-         <MiddleInf img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTgw_L8XqGGFtpKgJrO-n6OMvdoebpXcxhqw&usqp=CAU"/>
-         <MiddleInf img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTgw_L8XqGGFtpKgJrO-n6OMvdoebpXcxhqw&usqp=CAU"/>
+        <div class="obr">
+         <img src="https://www.floorwood.cz/galerie/1_264533/parkety-21x70x500-rustikal-iii-kourova-bila-bez-bele-original.jpg">
+        </div>
       </div>
     </div>
     <div class="rightContainer">
@@ -69,12 +70,19 @@ import MiddleInf from './components/middleInf.vue';
   </div>
 </template>
 <style>
+.obr{
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  margin-left: auto;
+}
 .middle{ 
   display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 0 20px;
-    width: 100%;
+  padding: 50px;
+    margin: 40px;
+    width: 80%;
+    height: 340px;
+    background-color: gray;
   }
 .prev {
   display: flex;
