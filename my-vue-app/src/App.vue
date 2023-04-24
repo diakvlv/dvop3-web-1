@@ -73,6 +73,13 @@
   </div>
 </template>
 <style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
 .prev {
   display: flex;
     gap: 20px;
@@ -81,7 +88,7 @@
 }
 
 .middleContainer {
-  width: 49%;
+  width: 60%;
   background-color: lightgray
 }
 
