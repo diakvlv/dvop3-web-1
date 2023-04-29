@@ -20,11 +20,19 @@ import MiddleInf from './components/middleInf.vue';
     </div>
     <div class="middleContainer">
       <div class="search">
-adf
+         <div class="searchBar">
+          Willkomen
+         </div>
+         <div class="lupa">
+          <a href=""><img src="https://e7.pngegg.com/pngimages/160/268/png-clipart-magnifying-glass-icon-objects-magnifying-glasses-thumbnail.png" alt=""></a> 
+        </div>
+        <div class="lupa">
+          <a href=""><img src="https://e7.pngegg.com/pngimages/808/500/png-clipart-computer-icons-gear-wheel-art-science-technology-engineering-and-mathematics-thumbnail.png" alt=""></a>  
+        </div>
       </div>
       <div class="middle">
         <div class="lev">
-         <div>
+         <div class="blank">
           <div class="text-left">
             TEXT003
           </div>
@@ -32,7 +40,7 @@ adf
            tekst
             </div>
           </div>
-          <div>
+          <div class="blank">
           <div class="tempBig">
             14
           </div>
@@ -40,7 +48,7 @@ adf
            tekst
             </div>
         </div>
-          <div>
+          <div class="blank">
           <div class="text-right">
             TEXT003
           </div>
@@ -49,7 +57,7 @@ adf
             </div>
           </div>
         </div>
-
+     
         <div class="obr">
           <img
             src="https://www.floorwood.cz/galerie/1_264533/parkety-21x70x500-rustikal-iii-kourova-bila-bez-bele-original.jpg">
@@ -105,22 +113,56 @@ adf
   </div>
 </template>
 <style>
+*{
+  background-color: lightgray;
+}
+.lupa  {
+  background-color: aqua;
+}
+.middle img{
+  border-radius: 20px;
+}
+.lupa{
+  margin: 15px;
+}
+.blank{
+  background-color:  #303c54;
+}
+.searchBar{
+ align-items: center;
+  margin: 10px;
+  background-color: white;
+  height: 30px;
+  padding-top: 0.5%;
+  border-radius: 20px;
+  padding-left: 40px;
+  width: 80%;
+}
 .search{
  height: 60px;
   margin: 40px;
-  background-color: gray;
+  background-color: gainsboro;
+  padding-top: 10px;
+  border-radius: 25px;
+  display: flex;
 }
 .text-middle{
+  background-color: #303c54;
   text-align: center;
 }
 .tempBig {
-  padding-top: 60%;
-  width: 150px;
+  background-color: #303c54;
+  padding-top: 40%;
+  width: 230px;
   text-align: center;
   font-size: 80px;
 }
-
+.lupa img{
+  width: 30px;
+  background-color: yellowgreen;
+}
 .lev {
+  background-color: #303c54;
   width: 50%;
   padding: 20px;
   flex-direction: row;
@@ -128,19 +170,23 @@ adf
 }
 
 .text-left {
+  background-color: #303c54;
   margin-left: auto;
 }
 .text-right2{
   padding-top: 280px;
+  background-color: #303c54;
   text-align: center;
   margin-left: auto;
 }
 .text-left1{
+  background-color: #303c54;
   padding-top: 280px;
   text-align: center;
   margin-left: auto;
 }
 .text-right {
+  background-color: #303c54;
  margin-left: auto;
 }
 
@@ -148,26 +194,23 @@ adf
   display: flex;
   padding: 50px;
   margin: 40px;
-  width: 80%;
+  width: 84%;
   height: 340px;
-  background-color: gray;
+  background-color: #303c54;
+  border-radius: 20px;
+  color:white;
 }
 
 .obr {
   width: 65%;
   height: 350px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border-radius: 40px;
 }
 
 .obr img {
   object-fit: cover;
-  /* přidána vlastnost */
   width: 100%;
-  /* přidána vlastnost */
   height: 100%;
-  /* přidána vlastnost */
 }
 
 .prev {
@@ -186,8 +229,8 @@ adf
 }
 
 .middleContainer {
-  width: 49%;
-  background-color: lightgray;
+  width: 59%;
+  background-color: white;
 }
 
 .wrapper {
@@ -197,12 +240,12 @@ adf
 }
 
 .rightContainer {
-  background-color: lightgray;
+  background-color: white !important;
   width: 25%;
 }
 
 .leftContainer {
-  width: 25%;
-  background-color: lightgray;
+  width: 15%;
+  background-color: white;
 }
 </style>

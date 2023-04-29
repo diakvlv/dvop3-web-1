@@ -39,4 +39,7 @@ img {
   text-align: center;
   flex-grow: 1;
 }
+.temparature{
+  text-align: center;
+}
 </style>
