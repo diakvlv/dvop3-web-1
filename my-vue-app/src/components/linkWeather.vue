@@ -26,11 +26,13 @@ defineProps({
 </template>
 
 <style scoped>
+*{
+  background-color: white;
+}
 template{
   height: 20%;
 }
 .flexbox {
-  background-color: lightgray;
   display: flex;
   width: 100%;
   gap: 10px;

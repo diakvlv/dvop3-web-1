@@ -17,11 +17,12 @@ defineProps({
 </template>
 
 <style>
+
 .flexbox {
   display: flex;
   width: 100%;
   gap: 10px;
-  
+  background-color: white;
 }
 .headL
 {
@@ -30,6 +31,7 @@ defineProps({
   text-align: right;
   flex-grow: 1;
   padding-top: 7%;
+  background-color: white;
 }
 .headM
 {
@@ -37,6 +39,7 @@ defineProps({
   text-align: center;
   flex-grow: 1;
   padding-top: 7%;
+  background-color: white;
 }
 .headR
 {
@@ -44,5 +47,6 @@ defineProps({
   text-align: left;
   flex-grow: 1;
   padding-top: 7%;
+  background-color: white;
 }
 </style>

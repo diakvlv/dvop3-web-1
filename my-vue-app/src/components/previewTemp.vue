@@ -25,7 +25,9 @@ defineProps({
 </template>
 
 <style scoped>
-
+*{
+  background-color: white;
+}
 img {
   width: 50px;
   height: 50px;

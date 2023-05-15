@@ -37,7 +37,7 @@ import MiddleInf from './components/middleInf.vue';
             TEXT003
           </div>
           <div class="text-left1">
-           tekst
+           text
             </div>
           </div>
           <div class="blank">
@@ -45,7 +45,7 @@ import MiddleInf from './components/middleInf.vue';
             14
           </div>
           <div class="text-middle">
-           tekst
+           text
             </div>
         </div>
           <div class="blank">
@@ -53,7 +53,7 @@ import MiddleInf from './components/middleInf.vue';
             TEXT003
           </div>
           <div class="text-right2">
-           tekst
+           text
             </div>
           </div>
         </div>
@@ -65,6 +65,7 @@ import MiddleInf from './components/middleInf.vue';
       </div>
     </div>
     <div class="rightContainer">
+      <div class="right">
       <RightHead head1="<" head2="Head" head3=">" />
       <div class="prev">
         <PreviewTemp temparature="17" city="Prag"
@@ -108,11 +109,14 @@ import MiddleInf from './components/middleInf.vue';
       <LinkWeather name="Chomutov" temparature="21"
         image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
         image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
-
+      </div>
     </div>
   </div>
 </template>
 <style>
+.right{
+  background-color: white;
+}
 *{
   background-color: lightgray;
 }
@@ -153,7 +157,7 @@ import MiddleInf from './components/middleInf.vue';
 .tempBig {
   background-color: #303c54;
   padding-top: 40%;
-  width: 230px;
+  width: 120px;
   text-align: center;
   font-size: 80px;
 }
@@ -194,7 +198,7 @@ import MiddleInf from './components/middleInf.vue';
   display: flex;
   padding: 50px;
   margin: 40px;
-  width: 84%;
+  width: 75%;
   height: 340px;
   background-color: #303c54;
   border-radius: 20px;
@@ -218,6 +222,7 @@ import MiddleInf from './components/middleInf.vue';
   gap: 20px;
   justify-content: space-between;
   padding: 0 20px;
+  background-color: white;
 }
 
 .mod {
@@ -240,7 +245,7 @@ import MiddleInf from './components/middleInf.vue';
 }
 
 .rightContainer {
-  background-color: white !important;
+  background-color: white;
   width: 25%;
 }
 
