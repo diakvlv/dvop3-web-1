@@ -40,7 +40,7 @@ template{
 }
 img {
   text-align: center;
-  width: 30%;
+  width: 40%;
   height: 90%;
 }
 .name, 
