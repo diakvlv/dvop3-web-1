@@ -24,17 +24,17 @@ import MiddleInf from './components/middleInf.vue';
           Willkomen
          </div>
          <div class="lupa">
-          <a href=""><img src="https://e7.pngegg.com/pngimages/160/268/png-clipart-magnifying-glass-icon-objects-magnifying-glasses-thumbnail.png" alt=""></a> 
+          <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1167/1167092.png" alt=""></a> 
         </div>
         <div class="lupa">
-          <a href=""><img src="https://e7.pngegg.com/pngimages/808/500/png-clipart-computer-icons-gear-wheel-art-science-technology-engineering-and-mathematics-thumbnail.png" alt=""></a>  
+          <a href=""><img src="https://cdn-icons-png.flaticon.com/512/40/40031.png" alt=""></a>  
         </div>
       </div>
       <div class="middle">
         <div class="lev">
          <div class="blank">
           <div class="text-left">
-            TEXT003
+            Gotham
           </div>
           <div class="text-left1">
            text
@@ -50,7 +50,7 @@ import MiddleInf from './components/middleInf.vue';
         </div>
           <div class="blank">
           <div class="text-right">
-            TEXT003
+            Monday8.00AM
           </div>
           <div class="text-right2">
            text
@@ -60,7 +60,7 @@ import MiddleInf from './components/middleInf.vue';
      
         <div class="obr">
           <img
-            src="https://www.floorwood.cz/galerie/1_264533/parkety-21x70x500-rustikal-iii-kourova-bila-bez-bele-original.jpg">
+            src="https://play-lh.googleusercontent.com/29fAV6TZJnKEmx-aeCM3ehOIbfv30ZB6E8lgycS2sDgzt_TKavB5TsCun4B7YhLN3Q">
         </div>
       </div>
     </div>
@@ -69,46 +69,46 @@ import MiddleInf from './components/middleInf.vue';
       <RightHead head1="<" head2="Head" head3=">" />
       <div class="prev">
         <PreviewTemp temparature="17" city="Prag"
-          image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-          image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+          image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+          image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
         <PreviewTemp temparature="14" city="Prag"
-          image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-          image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+          image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+          image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
         <PreviewTemp temparature="13" city="Prag"
-          image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-          image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+          image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+          image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
         <PreviewTemp temparature="13" city="Prag"
-          image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-          image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+          image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+          image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       </div>
 
       <LinkWeather name="Praha" temparature="21"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Brno" temparature="13"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Ostrava" temparature="18"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Olomouc" temparature="21"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Liberec" temparature="14"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Karlovy Vary" temparature="21"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="J. Hradec" temparature="13"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Jihlava" temparature="12"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       <LinkWeather name="Chomutov" temparature="21"
-        image1="https://png.pngtree.com/png-clipart/20201029/ourmid/pngtree-circle-clipart-blue-circle-png-image_2381949.jpg"
-        image2="https://www.vhv.rs/dpng/d/443-4431349_yellow-circle-png-transparent-png-download.png" />
+        image1="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Eo_circle_light-blue_blank.svg/2048px-Eo_circle_light-blue_blank.svg.png"
+        image2="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yellow_icon.svg/2048px-Yellow_icon.svg.png" />
       </div>
     </div>
   </div>
@@ -119,9 +119,6 @@ import MiddleInf from './components/middleInf.vue';
 }
 *{
   background-color: lightgray;
-}
-.lupa  {
-  background-color: aqua;
 }
 .middle img{
   border-radius: 20px;
@@ -145,7 +142,6 @@ import MiddleInf from './components/middleInf.vue';
 .search{
  height: 60px;
   margin: 40px;
-  background-color: gainsboro;
   padding-top: 10px;
   border-radius: 25px;
   display: flex;
@@ -153,6 +149,7 @@ import MiddleInf from './components/middleInf.vue';
 .text-middle{
   background-color: #303c54;
   text-align: center;
+  padding-left: 10px;
 }
 .tempBig {
   background-color: #303c54;
@@ -160,10 +157,10 @@ import MiddleInf from './components/middleInf.vue';
   width: 120px;
   text-align: center;
   font-size: 80px;
+  padding-left: 10px;
 }
 .lupa img{
   width: 30px;
-  background-color: yellowgreen;
 }
 .lev {
   background-color: #303c54;
@@ -198,7 +195,6 @@ import MiddleInf from './components/middleInf.vue';
   display: flex;
   padding: 50px;
   margin: 40px;
-  width: 75%;
   height: 340px;
   background-color: #303c54;
   border-radius: 20px;
