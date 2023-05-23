@@ -13,11 +13,12 @@
   <div class="wrapper">
     <div class="leftContainer">
       <div class="left-column">
+        <div class="left-column">
   <div class="logo">
     <img src="cuacane-logo.png" alt="Cuacane">
   </div>
   <ul class="menu">
-    <li><a href="#"><img src="dashboard-logo.png" alt="Dashboard">Dashboard</a></li>
+    <li><a href="#" class="active"><img src="dashboard-logo.png" alt="Dashboard">Dashboard</a></li>
     <li><a href="#"><img src="map-logo.png" alt="Map">Map</a></li>
     <li><a href="#"><img src="heart-logo.png" alt="Saved Locations">Saved Locations</a></li>
     <li><a href="#"><img src="calendar-logo.png" alt="Calendar">Calendar</a></li>
@@ -27,6 +28,7 @@
     <img src="logout-logo.png" alt="Log Out">
     <a href="#">Log Out</a>
   </div>
+</div>
 </div>
 
     </div>
@@ -73,11 +75,14 @@
   </div>
 </template>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
   }
   
 .prev {
@@ -108,7 +113,6 @@
   background-color: lightgray;
 }
 
-
 .left-column {
   height: 100vh;
   background-color: #f2f2f2;
@@ -116,10 +120,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-
-.logo {
-  font-size: 28px;
 }
 
 .logo img {
@@ -130,7 +130,7 @@
 
 .menu {
   list-style: none;
-  padding: 0;
+  padding: 20px 0;
   margin: 0;
 }
 
@@ -149,6 +149,11 @@
 
 .menu a:hover {
   background-color: #ccc;
+}
+
+.menu a.active {
+  background-color: #ccc;
+  font-weight: bold;
 }
 
 .menu img {
