@@ -1,5 +1,25 @@
-<script setup>
+<script setup lang="ts">
+interface Data {
+  elements: { title: string, image: string }[]
+}
+
+const data: Data = {
+  elements: [
+   { title: 'Logo', image: '../public/cuacane-logo.png' },
+    { title: 'Dashboard', image: '../public/dashboard-logo.png' },
+    { title: 'Map', image: '../public/map.png' },
+    { title: 'Saved Location', image: '../public/saved-location.png' },
+    { title: 'Settings', image: '../public/settings.png' },
+    { title: 'Logout', image: '../public/logout.png' },
+    { title: 'Calendar', image: '../public/calendar.png' },
+    { title: 'Rain Chance', image: '../public/rain-chance.png' },
+    { title: 'UV index', image: '../public/UVIndex.png' },
+    { title: 'Wind', image: '../public/wind.png' },
+    { title: 'Pressure', image: '../public/pressure.png' }
+  ]
+}
 </script>
+
 
 <template>
   <!--<div>
@@ -15,17 +35,21 @@
       <div class="left-column">
         <div class="left-column">
   <div class="logo">
-    <img src="cuacane-logo.png" alt="Cuacane">
+    <ul class="logo-ul">
+      <li><br></li>
+      <li><br></li>
+      <li><img src="cuacane-logo.png" alt="Cuacane"></li>
+    </ul>
   </div>
   <ul class="menu">
     <li><a href="#" class="active"><img src="dashboard-logo.png" alt="Dashboard">Dashboard</a></li>
-    <li><a href="#"><img src="map-logo.png" alt="Map">Map</a></li>
-    <li><a href="#"><img src="heart-logo.png" alt="Saved Locations">Saved Locations</a></li>
-    <li><a href="#"><img src="calendar-logo.png" alt="Calendar">Calendar</a></li>
-    <li><a href="#"><img src="settings-logo.png" alt="Settings">Settings</a></li>
+    <li><a href="#"><img src="map.png" alt="Map">Map</a></li>
+    <li><a href="#"><img src="saved-location.png" alt="Saved Locations">Saved Locations</a></li>
+    <li><a href="#"><img src="calendar.png" alt="Calendar">Calendar</a></li>
+    <li><a href="#"><img src="settings.png" alt="Settings">Settings</a></li>
   </ul>
   <div class="logout">
-    <img src="logout-logo.png" alt="Log Out">
+    <img src="logout.png" alt="Log Out">
     <a href="#">Log Out</a>
   </div>
 </div>
@@ -33,38 +57,39 @@
 
     </div>
     <div class="middleContainer">
+      
       <div class="window-section">
   <div class="window">
     <div class="text-container">
-      <div class="row1">Wind</div>
+      <div class="row1"><b>Wind</b></div>
       <div class="row2">Today wind speed</div>
-      <div class="row3">12km/h</div>
+      <div class="row3"><b>12km/h</b></div>
     </div>
-    <img src="image1.jpg" alt="Image 1" class="image">
+    <img src="wind.png" alt="Image 1" class="image">
   </div>
   <div class="window">
     <div class="text-container">
-      <div class="row1">Rain Chanse</div>
+      <div class="row1"><b>Rain Chance</b></div>
       <div class="row2">Today rain chanse</div>
-      <div class="row3">24%</div>
+      <div class="row3"><b>24%</b></div>
     </div>
-    <img src="image2.jpg" alt="Image 2" class="image">
+    <img src="rain-chance.png" alt="Image 2" class="image">
   </div>
   <div class="window">
     <div class="text-container">
-      <div class="row1">Pressure</div>
+      <div class="row1"><b>Pressure</b></div>
       <div class="row2">Today Pressure</div>
-      <div class="row3">720 hpa</div>
+      <div class="row3"><b>720 hpa</b></div>
     </div>
-    <img src="image3.jpg" alt="Image 3" class="image">
+    <img src="pressure.png" alt="Image 3" class="image">
   </div>
   <div class="window">
     <div class="text-container">
-      <div class="row1">UV Index</div>
+      <div class="row1"><b>UV Index</b></div>
       <div class="row2">Today UV Index</div>
-      <div class="row3">2</div>
+      <div class="row3"><b>2</b></div>
     </div>
-    <img src="image4.jpg" alt="Image 4" class="image">
+    <img src="UVIndex.png" alt="Image 4" class="image">
   </div>
 </div>
 
@@ -94,7 +119,8 @@
 
 .middleContainer {
   width: 60%;
-  background-color: lightgray
+  background-color: white;
+  border-right: 1px solid #ecf3f8;
 }
 
 .wrapper {
@@ -104,28 +130,38 @@
 }
 
 .rightContainer {
-  background-color: lightgray;
+  background-color: white;
   width: 25%;
 }
 
 .leftContainer {
   width: 15%;
-  background-color: lightgray;
+  background-color: white;
+  border-right: 1px solid #ecf3f8;
 }
 
 .left-column {
   height: 100vh;
-  background-color: #f2f2f2;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
+.logo-ul {
+  list-style: none;
+  font-size: 25px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 165px;
+  height: 50px;
   margin: 20px 0;
+  display: inline; 
 }
 
 .menu {
@@ -147,13 +183,10 @@
   transition: background-color 0.3s ease;
 }
 
-.menu a:hover {
-  background-color: #ccc;
-}
 
 .menu a.active {
-  background-color: #ccc;
   font-weight: bold;
+  border-right: 1px solid black;
 }
 
 .menu img {
@@ -187,16 +220,15 @@
   justify-content: space-between;
   align-items: center;
   height: 400px;
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 20px;
 }
 
 .window {
   width: 45%;
   height: 45%;
-  background-color: white;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background-color: #ecf3f8;
+  border-radius: 15px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -205,8 +237,8 @@
 }
 
 .text-container {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -227,8 +259,8 @@
 }
 
 .image {
-  width: 45%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
